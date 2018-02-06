@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Erick Zarate Hernández</title>
+    <title>Erick Zarate Hernández</title>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
 </head>
 <body>
-	<nav class="navbar is-info">
+    <nav class="navbar is-info">
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://erickzh.github.io/">
@@ -35,10 +35,10 @@
                             Sobre mi
                         </a>
                         <div class="navbar-dropdown is-boxed">
-                            <a class="navbar-item is-active" href="https://erickzh.github.io/">
+                            <a class="navbar-item" href="https://erickzh.github.io/">
                                 Profesión
                             </a>
-                            <a class="navbar-item" href="proyectos.html">
+                            <a class="navbar-item is-active" href="proyectos.html">
                                 Proyectos
                             </a>
                             <a class="navbar-item" href="#">
@@ -92,7 +92,7 @@
                 </div>
             </div>
         </div>
-	</nav>
+    </nav>
 
     <section class="hero is-primary is-bold">
         <div class="hero-body">
@@ -104,14 +104,14 @@
     </section>
     <div class="tabs is-boxed">
         <ul>
-            <li class="is-active">
-                <a>
+            <li>
+                <a href="https://erickzh.github.io/">
                     <span class="icon is-small"><i class="fa fa-laptop"></i></span>
                     <span>Profesión</span>
                 </a>
             </li>
-            <li>
-                <a href="proyectos.html">
+            <li class="is-active">
+                <a>
                     <span class="icon is-small"><i class="fa fa-code"></i></span>
                     <span>Proyectos</span>
                 </a>
@@ -127,45 +127,51 @@
 
     <section class="section">
         <div class="container">
-            <h1 class="title">Profesión</h1>
-            <h2 class="subtitle">Soy graduado de la carrera de Ingenieria en Sistemas Computaciones por el Instituto Tecnológico de Chilpancingo.</h2>
-            <h3 class="subtitle">Actualmente me desempeño como <b>Desarrollador Web</b> en <a href="http://evolutionhc.com.mx/" target="_blank">Evolution HC</a></h3>
-            <h3 class="subtitle">Las tecnológias y herramientas que utilizo en mi día a día son las siguientes:</h3>
-            <ul>
-                <li>
-                    Laravel 5.5 
-                    <span class="icon has-text-danger">
-                        <i class="fa fa-heart"></i>
-                    </span>
-                </li>
-                <li>
-                    Vue js 
-                </li>
-                <li>
-                    Axios 
-                </li>
-                <li>
-                    Git 
-                </li>
-                <li>
-                    HTML 5, CSS 3 y JavaScript
-                </li>
-                <li>
-                    Bootstrap 4 y Materialize CSS
-                </li>
-                <li>
-                    Digital Ocean
-                </li>
-                <li>
-                    Bitbucket
-                </li>
-                <li>
-                    GitHub
-                </li>
-            </ul>
+            <h1 class="title">Proyectos</h1>
+            <h2 class="subtitle">Estos son algunos de los proyectos en los que he trabajado.</h2>
+            <h3 class="subtitle">Si gustas puedes contribuir ;)</h3>
+            <hr>
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Kit del Programador
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                Este proyecto es una aplicación móvil cuyo objetivo es servir de herramienta para la realización de operaciones aritmeticas (suma, resta, multiplicación y división) en cualquier base númerica (base 2 a base 16).
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://github.com/ErickZH/kitdelprogramador" class="card-footer-item" target="_blank">Ver Repositorio</a>
+                            <a href="https://play.google.com/store/apps/details?id=ezh.kitdelprogramador" class="card-footer-item" target="_blank">Descargar App</a>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Salva tu vida
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                Este proyecto es una aplicación móvil la cual tiene como finalidad ayudar a pedir axulio a tus contactos (Configurados en la aplicación) en caso de una emergencia.
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://github.com/ErickZH/salvatuvida" target="_blank" class="card-footer-item">Ver Repositorio</a>
+                            <a href="https://play.google.com/store/apps/details?id=itch.salvatuvida&hl=es" class="card-footer-item" target="_blank">Descargar App</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-	<script src="asset/js/main.js"></script>
+    <script src="asset/js/main.js"></script>
 </body>
 </html>
